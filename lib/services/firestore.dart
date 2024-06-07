@@ -9,6 +9,7 @@ class FirestoreService {
   Future<void> addNote(String note) {
     return notes.add({
       'note': note,
+      'timestamp': Timestamp.now(),
     });
   }
 }
