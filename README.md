@@ -1,11 +1,29 @@
-# quick_start_ios
+# Start a proj
 
-A new Flutter module project.
+* cmd+shift+ p in VS code
+* select Model -> existing android & iOS....
+* Open Xcode -> select a modulator 
 
-## Getting Started
+# Create DB in Firebase
 
-For help getting started with Flutter development, view the online
-[documentation](https://flutter.dev/).
+* Go to page : https://console.firebase.google.com/
+* Enter a project name
+* Inactive enable Google Analytics...
+* Click Create Project
+* Do not choose any IOS, android, web
 
-For instructions integrating Flutter modules to your existing applications,
-see the [add-to-app documentation](https://flutter.dev/docs/development/add-to-app).
+# Connect with Firebase
+
+* open VS code terminal
+* 1sudo npm install -g firebase-tools
+* 2 firebase login
+* 3 flutter pub global activate flutterfire_cli
+* 4 copy the link like: export PATH="$PATH":"$HOME/.pub-cache/bin"
+* 5 the paste link like: export PATH="$PATH":"$HOME/.pub-cache/bin"
+* 6 flutterfire configure
+* 7 select your db name like:'iosstart'
+* 8 select anddroid/iOS/web ... by using space '空格+回车'
+* 9 enter yes 
+* 10 until see' Platform  Firebase App Id
+  ios       1:6487028xxxx:ios:f06ee37d9d34cxxxxxx....'
+* 11 add dependencies
